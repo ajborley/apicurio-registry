@@ -41,6 +41,7 @@ import static org.hamcrest.Matchers.nullValue;
 @TestProfile(DefaultGlobalRulesProfile.class)
 public class DefaultGlobalRulesResourceTest extends AbstractResourceTestBase {
 
+    @Override
     @BeforeEach
     protected void beforeEach() throws Exception {
         prepareServiceInitializers();

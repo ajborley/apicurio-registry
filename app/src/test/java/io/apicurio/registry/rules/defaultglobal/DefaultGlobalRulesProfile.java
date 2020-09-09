@@ -10,9 +10,4 @@ public class DefaultGlobalRulesProfile implements QuarkusTestProfile {
     public Map<String, String> getConfigOverrides() {
         return Collections.singletonMap("registry.rules.global.validity","FULL");
     }
-
-    @Override
-    public String getConfigProfile() {
-        return "test";
-    }
 }
