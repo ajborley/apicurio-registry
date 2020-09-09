@@ -21,7 +21,7 @@ jobs:
   build-verify:
     name: Verify Build
     runs-on: ubuntu-18.04
-    if: github.repository_owner == 'Apicurio'
+    if: github.repository_owner == 'ajborley'
     steps:
       - name: Checkout Code
         uses: actions/checkout@v2
