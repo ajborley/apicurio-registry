@@ -15,7 +15,7 @@
  * limitations under the License.
  */
 
-package io.apicurio.registry.rules.defaultglobal;
+package io.apicurio.registry.z_rules.defaultglobal;
 
 import io.apicurio.registry.AbstractResourceTestBase;
 import io.apicurio.registry.rest.beans.Rule;

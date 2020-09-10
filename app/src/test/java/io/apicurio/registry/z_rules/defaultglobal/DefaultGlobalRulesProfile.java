@@ -1,4 +1,4 @@
-package io.apicurio.registry.rules.defaultglobal;
+package io.apicurio.registry.z_rules.defaultglobal;
 
 import io.quarkus.test.junit.QuarkusTestProfile;
 
@@ -10,4 +10,6 @@ public class DefaultGlobalRulesProfile implements QuarkusTestProfile {
     public Map<String, String> getConfigOverrides() {
         return Collections.singletonMap("registry.rules.global.validity","FULL");
     }
+
+
 }
