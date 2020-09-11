@@ -47,6 +47,8 @@ public abstract class AbstractRegistryTestBase {
             DeepClone deepClone = objectToClone -> objectToClone;
             field.setAccessible(true);
             field.set(null, deepClone);
+            System.out.println("\n\n******\nQuarkusTestExtension.deepClone override!\n" + System.getProperties() + "\n******\n");
+
         } catch (Exception e) {
             throw new IllegalStateException(e);
         }
